@@ -16,10 +16,26 @@ public class Noob {
      */
     public static void main(String[] args) {
         
-        int cont = -10000000;
-        while (cont < 10000000){
-            System.out.println(cont);
-        cont++;
+        x(59);
+        
+        
+    }
+    
+    public static void x (int n){
+        String x = Integer.toString(n);
+        String last = x.substring(x.length());
+        int c = Integer.parseInt(last);
+        switch (c){
+            case 2:
+            case 4:
+            case 6:
+            case 8:
+            case 0:
+                System.out.println("Es par");
+                break;
+            default:
+                System.out.println("Es impar");
+                
         }
     }
     
