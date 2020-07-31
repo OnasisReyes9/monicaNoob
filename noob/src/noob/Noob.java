@@ -15,7 +15,12 @@ public class Noob {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        int cont = -10000000;
+        while (cont < 10000000){
+            System.out.println(cont);
+        cont++;
+        }
     }
     
 }
